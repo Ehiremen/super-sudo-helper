@@ -1,5 +1,3 @@
-"C:\Users\ehise\Documents\21\'19 Fall\Advanced C++ x OOPP\homework\code\cmake-build-debug\code.exe"
-
 ----------------------------------------------------------------
         Ehiremen A. Ekore
         CSCI 4526
