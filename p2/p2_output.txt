@@ -1,0 +1,110 @@
+
+--------------------------------------------------------
+        Ehiremen A. Ekore
+        CS 4526
+        Sun Sep 08 2019 21:11:00
+----------------------------------------------------------
+State initialized with '-'
+Current value: - Possibilities: 987654321
+Error: state is fixed
+Error: state is fixed
+
+CHECKING FINAL VALUE
+Current value: 2 Possibilities: ---------
+
+***********************************************************
+State initialized with null constructor
+Current value: - Possibilities: 987654321
+Error: can only mark valid digits
+Error: can only mark valid digits
+Error: can only mark valid digits
+Error: can only mark valid digits
+
+CHECKING FINAL VALUE
+Current value: 6 Possibilities: ---------
+
+***********************************************************
+State initialized with fixed value '3'
+Current value: 3 Possibilities: ---------
+Error: state is fixed
+Error: state is fixed
+
+CHECKING FINAL VALUE
+Current value: 3 Possibilities: ---------
+
+***********************************************************
+State initialized with a invalid value
+Error: invalid value entered
+State not properly initialized
+Current value: @ Possibilities: 987654321
+
+***********************************************************
+Testing a non-uniform possibility list
+Current value: - Possibilities: 9---54321
+Error: '8' is not a valid possibility
+Current value: - Possibilities: 9---54321
+
+CHECKING FINAL VALUE
+Current value: 2 Possibilities: ---------
+
+***********************************************************
+Trying to create square at [2, 3] with value '-' (should pass)
+Square 2, 3 constructed.
+Square [2, 3] Current value: - Possibilities: 987654321
+Deleting square 2, 3
+Trying to mark the square (currently unmarked; should pass)
+Square [2, 3] Current value: 3 Possibilities: ---------
+Deleting square 2, 3
+Trying to mark a marked square (should fail)
+Error: state is fixed
+Square [2, 3] Current value: 3 Possibilities: ---------
+Deleting square 2, 3
+
+***********************************************************
+Trying to create square with invalid character (should fail)
+Error: invalid value entered
+State not properly initialized
+Square not properly initialized
+Square [0, 0] Current value: @ Possibilities: 987654321
+Deleting square 0, 0
+
+***********************************************************
+Trying to create square at invalid row/column (should fail)
+Error: invalid value entered
+State not properly initialized
+Square not properly initialized
+Square [0, 0] Current value: @ Possibilities: 987654321
+Deleting square 0, 0
+
+***********************************************************
+Trying to create square with null constructor (should pass)
+Square [0, 0] Current value: - Possibilities: 987654321
+Deleting square 0, 0
+Trying to mark the square with invalid character (should fail)
+Error: can only mark valid digits
+Square [0, 0] Current value: - Possibilities: 987654321
+Deleting square 0, 0
+Trying to do a valid mark (should pass)
+Square [0, 0] Current value: 8 Possibilities: ---------
+Deleting square 0, 0
+
+***********************************************************
+Making a square with null constructor, changing poslist (for special case)
+Then trying to mark 8 (should fail because not in poslist)
+Then trying to mark 3 (should pass)
+Square [0, 0] Current value: - Possibilities: 9---54321
+Deleting square 0, 0
+Error: '8' is not a valid possibility
+Square [0, 0] Current value: - Possibilities: 9---54321
+Deleting square 0, 0
+Square [0, 0] Current value: 3 Possibilities: ---------
+Deleting square 0, 0
+
+***********************************************************
+Deleting square 0, 0
+Deleting square 0, 0
+Deleting square 0, 0
+Deleting square 0, 0
+Deleting square 2, 3
+
+Normal termination.
