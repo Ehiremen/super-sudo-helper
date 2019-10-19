@@ -5,4 +5,4 @@ This is me showing you how I progress through my Object Oriented Programming Pra
 
 The end goal is to have something that one can use to organize their life when solving a sudoku puzzle (less mental work, and no more erasing your previous solutions, YAY!)
 
-This is/was an in-class project, and some code stubs and files were supplied by my professor (Alice E. Fischer).
+This is/was an in-class project, and some code stubs and files (tools.cpp, tools.hpp) were supplied by my professor (Alice E. Fischer).
