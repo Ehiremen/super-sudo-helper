@@ -18,28 +18,28 @@ While this project uses an mvc design pattern, I moved all the code to one folde
 - 
 
 ### View Files:
-- Canvas.cpp
-- Canvas.hpp
-- CanView.hpp
-- GridChar.cpp
-- GridChar.hpp
-- MixedChar.cpp
-- MixedChar.hpp
-- Viewer.cpp
-- Viewer.hpp
+- [Canvas.cpp](Canvas.cpp)
+- [Canvas.hpp](Canvas.hpp)
+- [CanView.hpp](CanView.hpp)
+- [GridChar.cpp](GridChar.cpp)
+- [GridChar.hpp](GridChar.hpp)
+- [MixedChar.cpp](MixedChar.cpp)
+- [MixedChar.hpp](MixedChar.hpp)
+- [Viewer.cpp](Viewer.cpp)
+- [Viewer.hpp](Viewer.hpp)
 
 ### Controller Files:
-- Game.cpp
-- Game.hpp
-- Main.cpp
+- [Game.cpp](Game.cpp)
+- [Game.hpp](Game.hpp)
+- [Main.cpp](Main.cpp)
 
 ### Error Handling Files:
-- BadGameFile.hpp
-- BadLogic.hpp
+- [BadGameFile.hpp](BadGameFile.hpp)
+- [BadLogic.hpp](BadLogic.hpp)
 
 ### Sample Input Files:
-- puz1.txt (9x9 standard puzzle)
-- puzd.txt (9x9 diagonal puzzle)
-- puzs1.txt (6x6 sixy puzzle)
-- puzs2.txt (6x6 sixy puzzle)
+- [puz1.txt](puz1.txt) (9x9 standard puzzle)
+- [puzd.txt](puzd.txt) (9x9 diagonal puzzle)
+- [puzs1.txt](puzs1.txt) (6x6 sixy puzzle)
+- [puzs2.txt](puzs2.txt) (6x6 sixy puzzle)
 
