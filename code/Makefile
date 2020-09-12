@@ -12,14 +12,14 @@ OBJ = main.o Board.o BoardDiag.o BoardSixy.o \
 		tools.o Viewer.o
 
 # Build targets
-TARGETS = p11
+TARGETS = sudo_helper
 
 # .PHONY: means that the targets that follow should be built even 
 # though the are not real files.
 .PHONY: all clean
 all: $(TARGETS)
 
-p11: $(OBJ)
+sudo_helper: $(OBJ)
 	$(CXX)  -o $@ $(CXXFLAGS) $(OBJ)
 
 # Delete .o and exe files and force recompilation. ----------

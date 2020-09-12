@@ -15,31 +15,67 @@ This is/was an in-class project, and some code stubs and files (tools.cpp, tools
 While this project uses an mvc design pattern, I moved all the code to one folder to simplify compiling for users who may have trouble compiling between directories.
 
 ### Model Files:
-- 
+- ***Parent Board Class***
+    - [Board.cpp](code/Board.cpp)
+    - [Board.hpp](code/Board.hpp)
+
+    ***Children Board Classes***
+    - ***9x9 Diagonal Board***
+        - [BoardDiag.cpp](code/BoardDiag.cpp)
+        - [BoardDiag.hpp](code/BoardDiag.hpp)
+    - ***6x6 "Sixy" Board***
+        - [BoardSixy.cpp](code/BoardSixy.cpp)
+        - [BoardSixy.hpp](code/BoardSixy.hpp)
+    - ***9x9 Traditional Board***
+        - [BoardTrad.cpp](code/Board.cpp)
+        - [BoardTrad.hpp](code/Board.hpp)
+
+- [Cluster.cpp](code/Cluster.cpp)
+- [Cluster.hpp](code/Cluster.hpp)
+- [Frame.hpp](code/Frame.hpp)
+- [Square.cpp](code/Square.cpp)
+- [Square.hpp](code/Square.hpp)
+- [Stack.cpp](code/Stack.cpp)
+- [Stack.hpp](code/Stack.hpp)
+- [State.cpp](code/State.cpp)
+- [State.hpp](code/State.hpp)
+
 
 ### View Files:
-- [Canvas.cpp](Canvas.cpp)
-- [Canvas.hpp](Canvas.hpp)
-- [CanView.hpp](CanView.hpp)
-- [GridChar.cpp](GridChar.cpp)
-- [GridChar.hpp](GridChar.hpp)
-- [MixedChar.cpp](MixedChar.cpp)
-- [MixedChar.hpp](MixedChar.hpp)
-- [Viewer.cpp](Viewer.cpp)
-- [Viewer.hpp](Viewer.hpp)
+- [Canvas.cpp](code/Canvas.cpp)
+- [Canvas.hpp](code/Canvas.hpp)
+- [CanView.hpp](code/CanView.hpp)
+- [GridChar.cpp](code/GridChar.cpp)
+- [GridChar.hpp](code/GridChar.hpp)
+- [MixedChar.cpp](code/MixedChar.cpp)
+- [MixedChar.hpp](code/MixedChar.hpp)
+- [Viewer.cpp](code/Viewer.cpp)
+- [Viewer.hpp](code/Viewer.hpp)
+
 
 ### Controller Files:
-- [Game.cpp](Game.cpp)
-- [Game.hpp](Game.hpp)
-- [Main.cpp](Main.cpp)
+- [Game.cpp](code/Game.cpp)
+- [Game.hpp](code/Game.hpp)
+- [Main.cpp](code/Main.cpp)
+
+### Utility Files
+- [tools.cpp](code/tools.cpp)
+- [tools.hpp](code/tools.hpp)
 
 ### Error Handling Files:
-- [BadGameFile.hpp](BadGameFile.hpp)
-- [BadLogic.hpp](BadLogic.hpp)
+- [BadGameFile.hpp](code/BadGameFile.hpp)
+- [BadLogic.hpp](code/BadLogic.hpp)
 
 ### Sample Input Files:
-- [puz1.txt](code/puz1.txt) (9x9 standard puzzle)
-- [puzd.txt](puzd.txt) (9x9 diagonal puzzle)
-- [puzs1.txt](puzs1.txt) (6x6 sixy puzzle)
-- [puzs2.txt](puzs2.txt) (6x6 sixy puzzle)
+- [puz1.txt](puzzles/puz1.txt) (9x9 standard puzzle)
+- [puzd.txt](puzzles/puzd.txt) (9x9 diagonal puzzle)
+- [puzs1.txt](puzzles/puzs1.txt) (6x6 sixy puzzle)
+- [puzs2.txt](puzzles/puzs2.txt) (6x6 sixy puzzle)
 
+- - - - 
+
+**NOTE:**
+If you get a "Corrupt file" message when you try the input files linked above, edit them, take out each newline and put it in again.
+The issue has to do with Windows' CR.
+
+*Thank you*
