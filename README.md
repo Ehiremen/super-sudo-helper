@@ -9,6 +9,7 @@ The end goal is to have something that one can use to organize their life when s
 
 This is/was an in-class project, and some code stubs and files (tools.cpp, tools.hpp) were supplied by my professor (Alice E. Fischer).
 
+- - - - 
 
 ## Project Structure
 While this project uses an mvc design pattern, I moved all the code to one folder to simplify compiling for users who may have trouble compiling between directories.
@@ -17,12 +18,28 @@ While this project uses an mvc design pattern, I moved all the code to one folde
 - 
 
 ### View Files:
--
+- Canvas.cpp
+- Canvas.hpp
+- CanView.hpp
+- GridChar.cpp
+- GridChar.hpp
+- MixedChar.cpp
+- MixedChar.hpp
+- Viewer.cpp
+- Viewer.hpp
 
 ### Controller Files:
--
+- Game.cpp
+- Game.hpp
+- Main.cpp
 
 ### Error Handling Files:
 - BadGameFile.hpp
 - BadLogic.hpp
+
+### Sample Input Files:
+- puz1.txt (9x9 standard puzzle)
+- puzd.txt (9x9 diagonal puzzle)
+- puzs1.txt (6x6 sixy puzzle)
+- puzs2.txt (6x6 sixy puzzle)
 
