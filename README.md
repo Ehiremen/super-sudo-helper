@@ -67,7 +67,7 @@ While this project uses an mvc design pattern, I moved all the code to one folde
 - [BadLogic.hpp](code/BadLogic.hpp)
 
 ### Sample Input Files:
-- [puz1.txt](puzzles/puz1.txt) (9x9 standard puzzle)
+- [puz1.txt](puzzles/puz1.txt) (9x9 traditional puzzle)
 - [puzd.txt](puzzles/puzd.txt) (9x9 diagonal puzzle)
 - [puzs1.txt](puzzles/puzs1.txt) (6x6 sixy puzzle)
 - [puzs2.txt](puzzles/puzs2.txt) (6x6 sixy puzzle)
