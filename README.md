@@ -1,5 +1,5 @@
 # super-sudo-helper
-A C++ project that helps (not solves!) when solving Sudoku puzzles.
+A C++ project that helps when solving Sudoku puzzles.
 
 This is me showing you the product of my Object Oriented Programming Practices class. 
 
